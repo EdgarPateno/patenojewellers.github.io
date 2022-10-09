@@ -126,7 +126,7 @@ a.btn.btn-image-text-homepage:hover {
 }
 /* end of image and text section */
 
-/* banner image section */
+/* CREATE YOUR OWN STYLE banner image section */
 section.homepage-banner-image div.container-liquid {
     position: relative;
 }
@@ -165,7 +165,22 @@ div#create-own-style-banner-image a {
     }
 }
 
-/* end of banner image section */
+/* end of CREATE YOUR OWN STYLE banner image section */
+
+/* REVIEWS CAROUSEL section */
+
+span.carousel-control-prev-icon {
+    background-color:#329BD1;
+}
+
+span.carousel-control-next-icon {
+    background-color:#329BD1;
+}
+
+span#verified-badge {
+    background-color: #329BD1;
+}
+/* end of REVIEWS CAROUSEL section */
 
  /* for trust badges section */
  section.trust-badges {

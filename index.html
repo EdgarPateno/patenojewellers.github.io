@@ -92,13 +92,25 @@
 
 <body>
 
-    <!-- header section -->
+    <!-- announcement banner section -->
     <section class="announcement-bar">
         <div id="announcement-banner" class="container-fluid">
-          <h6>Free Shipping On All Orders</h6> 
+          <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                  <h6>Free Shipping On All Orders</h6>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <h6>20% OFF On All Items</h6>
+            </div>
+            </div>
+          </div> 
         </div>
-    </section>    
+    </section>  
+    <!-- end of announcement banner section -->  
         
+    <!-- logo and main navigation section -->
     <section class="site-header sticky-top">
         <nav class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
@@ -143,7 +155,7 @@
           </div>
         </nav>  
     </section>
-    <!-- end of header section -->
+    <!-- end of logo and main navigation section -->
 
     <!-- Homepage Banner Video section -->
     <section class="homepage-banner-video">
@@ -500,13 +512,50 @@
     <section class="homepage-banner-image">
       <div class="container-liquid">
         <img src="images/homepage-photos/banner-1.png" class="img-fluid" alt="...">      
-        <div id="create-own-style-banner-image" class="text-box">
+        <div id="create-own-style-banner-image" class=" text-box">
           <h3 class="display-3 homepage-banner-image-overlaytext justify-content-center align-items-center">Create Your Own Style</h3>
           <a href="catalog-page.html" class="btn btn-primary">SHOP NOW</a>
         </div>
       </div>
     </section>
     <!-- end of Banner Image section -->
+
+    <!-- reviews section -->
+    <section class="reviews my-5">
+      <div class="container text-center">
+        <h3 class="h1 mb-5">What Our Customers Say?</h3>
+        <div id="reviewsCarouselControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="images/reviews-photos/wedding-ring-1.png" style="width:150px;height:auto" class="mb-3">
+                <p>Beautiful classic ring, it was just what I wanted for my wedding ceremony. The engraving was 
+                    smaller than expected but acceptable.</p>
+                <small>- Shannon Q., <span class="text-muted">Evansville, IN</span></small>&nbsp;<span class="badge" id="verified-badge">Verified</span>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/bracelet-photos/anahita-pearl.png" style="width:150px;height:auto;" class="mb-3">
+                <p>I wanted something dainty and sparkly. Well, not only did I get what I wanted, but it EXCEEDED 
+                  my expectations! This is to replace one that I lost recently, and it's more beautiful than the 
+                  one I had. So pleased with Pateño Jewellers products! You will be too!</p>
+                <small>- Jane F, <span class=text-muted>Ashland, USA</span></small>&nbsp;<span class="badge" id="verified-badge">Verified</span>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarouselControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarouselControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+        </div> 
+      </div>
+    </section>
+
+    <!-- end of reviews section -->
 
     <!-- 
     <section class="trust-badges">
